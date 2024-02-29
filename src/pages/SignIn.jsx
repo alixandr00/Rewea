@@ -41,6 +41,7 @@ export const SignIn = () => {
       setIsFormValid(false);
     }
   };
+  console.log("ali");
   const checkFormValidityLogin = () => {
     if (email.trim() !== "" && password.trim() !== "") {
       setIsFormValidLogin(true);
